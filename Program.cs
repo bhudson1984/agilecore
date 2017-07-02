@@ -16,7 +16,6 @@ namespace agilebible
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseUrls("http://*:80")
                 .Build();
 
             host.Run();
